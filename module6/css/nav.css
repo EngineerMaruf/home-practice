@@ -1,4 +1,4 @@
-nav ul{
+nav >ul{
     display: flex;
 }
 nav li{
@@ -13,4 +13,7 @@ nav li a{
 }
 nav li:hover{
     background-color: lightgray;
+}
+.dropdown{
+    display: none;
 }
